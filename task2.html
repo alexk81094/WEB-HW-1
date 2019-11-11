@@ -1,12 +1,25 @@
 <html>
+	<head>
+		<style>
+            #half{
+				height:50%;
+				width:50%;
+                float:right;
+			}
+			.blue  { background-color:blue;  }
+			.green { background-color:green; }
+			.red   { background-color:red;   }
+            .cyan  { background-color:cyan;  }
+		</style>
+	</head>
 	<body>
 		<div>
-			<div style="height:50%;width:50%;float:left;background-color:red;"></div>
-			<div style="height:50%;width:50%;float:right;background-color:blue;"></div>
-		</div>
-		<div>
-			<div style="height:50%;width:50%;float:left;background-color:green;"></div>
-			<div style="height:50%;width:50%;float:right;background-color:cyan;"></div>
+			<div class="green" id="half"></div>
+			<div class="blue" id="half"></div>
+        </div>
+        <div>
+			<div class="red" id="half"></div>
+			<div class="cyan" id="half"></div>
 		</div>
 	</body>
 </html>
