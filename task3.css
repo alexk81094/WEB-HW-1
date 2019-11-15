@@ -1,0 +1,12 @@
+#out{
+	height:100%;
+	width:100%;
+}
+div{
+	height:50%;
+	width:50%;
+	float:right;
+}
+.blue  { background-color:blue;  }
+.green { background-color:green; }
+.red   { background-color:red;   }
